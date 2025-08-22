@@ -9,12 +9,12 @@ import { headerData } from '../../data/headerData';
 import { socialsData } from '../../data/socialsData';
 
 import {
-    FaTwitter,
     FaLinkedin,
-    FaGithub,
-    FaYoutube,
-    FaBlogger,
+    FaInstagram,
+    FaFacebookF
 } from 'react-icons/fa';
+import { SiUpwork } from 'react-icons/si';
+import { TbBriefcase } from 'react-icons/tb';
 
 function Landing() {
     const { theme, drawerOpen } = useContext(ThemeContext);
@@ -88,55 +88,55 @@ function Landing() {
                                 />
                             </a>
                         )}
-                        {socialsData.github && (
+                        {socialsData.instagram && (
                             <a
-                                href={socialsData.github}
+                                href={socialsData.instagram}
                                 target='_blank'
                                 rel='noreferrer'
                             >
-                                <FaGithub
+                                <FaInstagram
                                     className='landing--social'
                                     style={{ color: theme.secondary }}
-                                    aria-label='GitHub'
+                                    aria-label='Instagram'
                                 />
                             </a>
                         )}
-                        {socialsData.twitter && (
+                        {socialsData.facebook && (
                             <a
-                                href={socialsData.twitter}
+                                href={socialsData.facebook}
                                 target='_blank'
                                 rel='noreferrer'
                             >
-                                <FaTwitter
+                                <FaFacebookF
                                     className='landing--social'
                                     style={{ color: theme.secondary }}
-                                    aria-label='Twitter'
+                                    aria-label='Facebook'
                                 />
                             </a>
                         )}
-                        {socialsData.youtube && (
+                        {socialsData.upwork && (
                             <a
-                                href={socialsData.youtube}
+                                href={socialsData.upwork}
                                 target='_blank'
                                 rel='noreferrer'
                             >
-                                <FaYoutube
+                                <SiUpwork
                                     className='landing--social'
                                     style={{ color: theme.secondary }}
-                                    aria-label='YouTube'
+                                    aria-label='Upwork'
                                 />
                             </a>
                         )}
-                        {socialsData.blogger && (
+                        {socialsData.onlinejobs && (
                             <a
-                                href={socialsData.blogger}
+                                href={socialsData.onlinejobs}
                                 target='_blank'
                                 rel='noreferrer'
                             >
-                                <FaBlogger
+                                <TbBriefcase
                                     className='landing--social'
                                     style={{ color: theme.secondary }}
-                                    aria-label='Blogger'
+                                    aria-label='OnlineJobs.ph'
                                 />
                             </a>
                         )}

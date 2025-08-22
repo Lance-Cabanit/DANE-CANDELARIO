@@ -45,7 +45,7 @@ function Blog() {
             {blogData.length > 0 && (
                 <div className="blog" id="blog" style={{backgroundColor: theme.secondary}}>
                     <div className="blog--header">
-                        <h1 style={{color: theme.primary}}>Blog</h1>
+                        <h1 style={{color: theme.primary}}>Certificates</h1>
                     </div>
                     <div className="blog--body">
                         <div className="blog--bodyContainer">
@@ -61,22 +61,10 @@ function Blog() {
                                     id={blog.id}
                                 />
                             ))}
-                        </div> 
-
-                        {blogData.length > 3 && (
-                            <div className="blog--viewAll">
-                                <Link to="/blog">
-                                    <button className={classes.viewAllBtn}>
-                                        View All
-                                        <HiArrowRight className={classes.viewArr} />
-                                    </button>
-                                </Link>
-                            </div>
-                        )}
+                        </div>
                     </div>
                 </div>
             )}
-
         </>
     )
 }

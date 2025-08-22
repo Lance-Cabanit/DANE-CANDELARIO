@@ -11,29 +11,29 @@ import eight from '../assets/svg/projects/eight.svg'
 export const projectsData = [
     {
         id: 1,
-        projectName: 'Employee Management',
-        projectDesc: 'This project aims to build an employee management system that consolidates all information of a company',
-        tags: ['React', 'CSS', 'Material Ui'],
-        code: 'https://github.com/hhhrrrttt222111/developer-portfolio',
-        demo: 'https://github.com/hhhrrrttt222111/developer-portfolio',
-        image: one
+        projectName: 'FOREX TRADING',
+        projectDesc: 'A beginner-friendly guide to Forex trading. Learn how to start, key terms, strategies, risks, and tips to succeed in the world’s largest financial market.',
+        tags: ['forex trading, forex strategies, forex tips'],
+        code: 'https://danecandelario.blogspot.com/2021/09/a-beginners-guide-to-forex-trading-what.html',
+        demo: 'https://danecandelario.blogspot.com/2021/09/a-beginners-guide-to-forex-trading-what.html',
+        image: seven
     },
     {
         id: 2,
-        projectName: 'Railway Tracking',
-        projectDesc: 'This project is a railway tracking system that allows users to obtain relevant information about train timing.',
-        tags: ['Django', 'Tailwind CSS'],
-        code: 'https://github.com/hhhrrrttt222111/developer-portfolio',
-        demo: 'https://github.com/hhhrrrttt222111/developer-portfolio',
+        projectName: 'Satellite-Based Train',
+        projectDesc: 'Satellite-based train control systems are revolutionizing railways with real-time GPS tracking, improved safety, and smarter, more efficient operations.',
+        tags: ['AI & Machine Learning for Predictive Maintenance'],
+        code: 'https://danecandelario.blogspot.com/2023/05/satellite-based-train-control-systems.html',
+        demo: 'https://danecandelario.blogspot.com/2023/05/satellite-based-train-control-systems.html',
         image: two
     },
     {
         id: 3,
-        projectName: 'Weather App',
-        projectDesc: 'Weather forecast systems and applications predict weather conditions based on multiple parameters.',
-        tags: ['Django', 'CSS', 'Material Ui'],
-        code: 'https://github.com/hhhrrrttt222111/developer-portfolio',
-        demo: 'https://github.com/hhhrrrttt222111/developer-portfolio',
+        projectName: 'Healthness & Wellness',
+        projectDesc: 'Health and wellness is about caring for your body and mind through balanced habits that keep you strong, calm, and energized every day.',
+        tags: ['Health', 'Wellness', 'Self-Care'],
+        code: 'https://danecandelario.blogspot.com/2024/10/10-daily-habits-to-reduce-stress-and.html',
+        demo: 'https://danecandelario.blogspot.com/2024/10/10-daily-habits-to-reduce-stress-and.html',
         image: three
     },
     {
@@ -70,7 +70,7 @@ export const projectsData = [
         tags: ['React', 'Redux', 'Bootstrap'],
         code: 'https://github.com/hhhrrrttt222111/developer-portfolio',
         demo: 'https://github.com/hhhrrrttt222111/developer-portfolio',
-        image: seven
+        image: one
     },
     {
         id: 8,

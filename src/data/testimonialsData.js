@@ -1,6 +1,6 @@
 /* eslint-disable */
-import girl1 from '../assets/svg/testimonials/girl1.svg'
-import girl2 from '../assets/svg/testimonials/girl2.svg'
+import girl1 from '../assets/svg/testimonials/darling.png'
+import girl2 from '../assets/svg/testimonials/yeltsin.png'
 import girl3 from '../assets/svg/testimonials/girl3.svg'
 import boy1 from '../assets/svg/testimonials/boy1.svg'
 import boy2 from '../assets/svg/testimonials/boy2.svg'
@@ -25,8 +25,8 @@ export const testimonialsData = [
     },
     {
         id: 3,
-        name: 'Phoebe Buffay',
-        title: 'Massuese',
+        name: 'May amor Cabanit',
+        title: 'BPO Owner',
         text: "Heard of the song 'Smelly Cat!!' ? This website made it viral. Plus portfolio is the only thing that Ursula doesn't have :)",
         image: girl1
     },

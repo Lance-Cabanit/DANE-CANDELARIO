@@ -1,12 +1,14 @@
  export const skillsData = [
     'HTML',
-    'Fastify',
-    'Blender',
+    'GHL',
+    'Wordpress',
     'Figma',
     'Javascript',
     'CSS',
     'React',
-    'Django',
+    'CapCut',
+    'Canva',
+    'Notion',
 ]
 
 // Choose your skills from below. Make sure it's in the same format and spelled correctly.
@@ -31,7 +33,7 @@
     Svelte
     GCP
     Azure
-    Fastify
+    GHL
     Haxe
     Ionic
     Markdown
@@ -43,7 +45,7 @@
     Adobe XD
     After Effects
     Bootstrap
-    Bulma
+    Notion
     CapacitorJs
     Coffeescript
     MemSQL
@@ -80,7 +82,7 @@
     Premiere Pro
     Adobe Audition
     Deno
-    Django
+    CapCut
     Gimp
     Graphql
     Lightroom

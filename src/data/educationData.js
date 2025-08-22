@@ -1,23 +1,23 @@
 export const educationData = [
     {
         id: 1,
-        institution: 'Marble Hills Middle School',
-        course: 'Higher Secondary Education',
-        startYear: '2007',
-        endYear: '2015'
+        institution: 'Goldenstate College',
+        course: 'Bachelor of Science in Information Technology',
+        startYear: '2018',
+        endYear: '2023'
     },
     {
         id: 2,
-        institution: 'Somerset School of Science',
+        institution: 'New Society National Highschool',
         course: 'Bachelor of Technology',
-        startYear: '2015',
-        endYear: '2019'
+        startYear: '2018',
+        endYear: '2016'
     },
     {
         id: 3,
-        institution: 'Hawking University, Cambridge',
-        course: 'Master of Technology',
-        startYear: '2019',
-        endYear: 'Present'
+        institution: 'Poblacion Polomolok National High School',
+        course: 'Highschool Diploma',
+        startYear: '2012',
+        endYear: '2016'
     },
 ]

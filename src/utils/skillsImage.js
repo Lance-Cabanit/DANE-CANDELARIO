@@ -15,7 +15,7 @@ import svelte from '../assets/svg/skills/svelte.svg'
 import typescript from '../assets/svg/skills/typescript.svg'
 import vue from '../assets/svg/skills/vue.svg'
 import bootstrap from '../assets/svg/skills/bootstrap.svg'
-import bulma from '../assets/svg/skills/bulma.svg'
+import Notion from '../assets/svg/skills/Notion.svg'
 import capacitorjs from '../assets/svg/skills/capacitorjs.svg'
 import coffeescript from '../assets/svg/skills/coffeescript.svg'
 import memsql from '../assets/svg/skills/memsql.svg'
@@ -41,7 +41,7 @@ import swift from '../assets/svg/skills/swift.svg'
 import adobeaudition from '../assets/svg/skills/adobeaudition.svg'
 import aws from '../assets/svg/skills/aws.svg'
 import deno from '../assets/svg/skills/deno.svg'
-import django from '../assets/svg/skills/django.svg'
+import CapCut from '../assets/svg/skills/CapCut.svg'
 import firebase from '../assets/svg/skills/firebase.svg'
 import gimp from '../assets/svg/skills/gimp.svg'
 import git from '../assets/svg/skills/git.svg'
@@ -61,7 +61,7 @@ import wordpress from '../assets/svg/skills/wordpress.svg'
 
 import azure from '../assets/svg/skills/azure.svg'
 import blender from '../assets/svg/skills/blender.svg'
-import fastify from '../assets/svg/skills/fastify.svg'
+import GHL from '../assets/svg/skills/GHL.svg'
 import figma from '../assets/svg/skills/figma.svg'
 import flutter from '../assets/svg/skills/flutter.svg'
 import haxe from '../assets/svg/skills/haxe.svg'
@@ -113,8 +113,8 @@ export const skillsImage = (skill) => {
             return vue;
         case 'bootstrap':
             return bootstrap;
-        case 'bulma':
-            return bulma;
+        case 'notion':
+            return Notion;
         case 'capacitorjs':
             return capacitorjs;
         case 'coffeescript':
@@ -165,8 +165,8 @@ export const skillsImage = (skill) => {
             return aws;
         case 'deno':
             return deno;
-        case 'django':
-            return django;
+        case 'capcut':
+            return CapCut;
         case 'firebase':
             return firebase;
         case 'gimp':
@@ -203,8 +203,8 @@ export const skillsImage = (skill) => {
             return azure;
         case 'blender':
             return blender;
-        case 'fastify':
-            return fastify;
+        case 'ghl':
+            return GHL;
         case 'figma':
             return figma;
         case 'flutter':

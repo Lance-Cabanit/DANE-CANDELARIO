@@ -3,7 +3,7 @@ import resume from '../assets/pdf/resume.pdf'
 export const headerData = {
     name: 'Dane Arrah Candelario',
     title: "Virtual Assistant",
-    desciption:"There wasn't a bird in the sky, but that was not what caught her attention. It was the clouds. The deep green that isn't the color of clouds, but came with these. She knew what was coming and she hoped she was prepared. ",
-    image: 'https://raw.githubusercontent.com/PhantomScript/asset-container/main/developer-portfolio/landingImg.png',
+    desciption:"Creativity sparks ideas, but hard work transforms them into reality. Every design, every project, every solution is the result of imagination combined with dedication. When innovation meets consistent effort, possibilities become achievements, and ordinary tasks turn into extraordinary creations. ",
+    image: 'https://raw.githubusercontent.com/Lance-Cabanit/Arrah-Site/refs/heads/master/header.JPG',
     resumePdf: resume
 }
